@@ -24,8 +24,8 @@ Display.prototype.add = function(book){
                 <td>${book.name}</td>
                 <td>${book.author}</td>
                 <td>${book.type}</td>
-                <td><button id="${book.name}" onclick="deleteNotes(this.${book.name})" class="btn btn-danger ">Delete</button></td> 
-                </tr>,`;
+                <td> 
+                </tr>`;
     console.log(book);            
     let a =  localStorage.getItem(`books`)
     if (a==null){
